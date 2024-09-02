@@ -1,0 +1,61 @@
+.paradise-mud-toast-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 20px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+.paradise-mud-toast {
+  padding: 20px;
+  padding-right: 0px !important;
+  background-color: #be44be;
+  color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: str;
+  gap: 20px;
+  min-width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 2px 2px 3px #0000003d;
+}
+
+.paradise-mud-toast-icon {
+  height: 24px;
+}
+
+.paradise-mud-toast-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+}
+.paradise-mud-toast-content {
+  flex: 1;
+  margin-right: 60px;
+  max-width: 150px;
+}
+
+.paradise-mud-toast-close{
+    cursor: pointer;
+
+}
+.paradise-mud-toast-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px; /* İlerleme çubuğunun yüksekliği */
+  }
+  
+  .paradise-mud-toast-progress-bar {
+    height: 100%;
+    transition: width 0.1s linear; /* Yumuşak geçiş efekti */
+  }

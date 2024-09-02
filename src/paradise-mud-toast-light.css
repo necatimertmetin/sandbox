@@ -1,0 +1,36 @@
+.paradise-mud-toast.light {
+  background-color: #fff;
+  color: #333;
+}
+
+.paradise-mud-toast-close.light {
+  background-color: #f9f9f9;
+  font-size: 22px;
+  color: #333;
+}
+
+.paradise-mud-toast-icon-warning.light {
+  color: #e7d404;
+}
+.paradise-mud-toast-icon-error.light {
+  color: #e72929;
+}
+.paradise-mud-toast-icon-success.light {
+  color: #30ad7f;
+}
+.paradise-mud-toast-icon-info.light {
+  color: #478ccf;
+}
+
+.paradise-mud-toast-progress-bar-warning.light {
+  background-color: #e7d404;
+}
+.paradise-mud-toast-progress-bar-error.light {
+  background-color: #e72929;
+}
+.paradise-mud-toast-progress-bar-success.light {
+  background-color: #30ad7f;
+}
+.paradise-mud-toast-progress-bar-info.light {
+  background-color: #478ccf;
+}
